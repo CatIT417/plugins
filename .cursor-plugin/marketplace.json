@@ -54,11 +54,6 @@
       "description": "Cursor plugin for technical documentation workflows: READMEs, API docs, architecture notes, and changelogs"
     },
     {
-      "name": "presentation-pptx",
-      "source": "presentation-pptx",
-      "description": "Cursor plugin for presentation authoring: narrative design, slide outlines, and PPTX-ready content"
-    },
-    {
       "name": "learning",
       "source": "learning",
       "description": "Cursor plugin for learning workflows: skill mapping, practice plans, and feedback loops"
