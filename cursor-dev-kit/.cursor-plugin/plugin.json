@@ -2,7 +2,7 @@
   "name": "cursor-dev-kit",
   "displayName": "Cursor Dev Kit",
   "version": "1.0.0",
-  "description": "Cursor Dev Kit: internal-style workflows used by Cursor developers for CI, code review, shipping, and testing",
+  "description": "Internal workflows used by Cursor developers for CI, code review, and shipping.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"

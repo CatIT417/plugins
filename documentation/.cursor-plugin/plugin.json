@@ -2,7 +2,7 @@
   "name": "documentation",
   "displayName": "Documentation",
   "version": "1.0.0",
-  "description": "Cursor plugin for technical documentation workflows: READMEs, API docs, architecture notes, and changelogs",
+  "description": "READMEs, API docs, architecture notes, and changelogs.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"

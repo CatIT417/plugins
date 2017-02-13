@@ -2,7 +2,7 @@
   "name": "frontend",
   "displayName": "Frontend",
   "version": "1.0.0",
-  "description": "Cursor plugin for frontend engineering workflows: React, TypeScript, accessibility, and performance",
+  "description": "Frontend development with React, TypeScript, accessibility, and performance.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"

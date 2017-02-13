@@ -2,7 +2,7 @@
   "name": "ios",
   "displayName": "iOS",
   "version": "1.0.0",
-  "description": "Cursor plugin for iOS development: Swift, SwiftUI, architecture, and testing",
+  "description": "iOS development with Swift and SwiftUI.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"

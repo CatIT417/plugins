@@ -2,7 +2,7 @@
   "name": "design",
   "displayName": "Design",
   "version": "1.0.0",
-  "description": "Cursor plugin for product design workflows: UX specs, design systems, handoff, and iteration",
+  "description": "UX specs, design systems, and developer handoff.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
