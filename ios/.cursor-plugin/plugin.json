@@ -1,5 +1,6 @@
 {
   "name": "ios",
+  "displayName": "iOS",
   "version": "1.0.0",
   "description": "Cursor plugin for iOS development: Swift, SwiftUI, architecture, and testing",
   "author": {

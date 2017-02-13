@@ -1,5 +1,6 @@
 {
   "name": "create-plugin",
+  "displayName": "Create Plugin",
   "version": "1.0.0",
   "description": "Meta plugin for authoring Cursor plugins with manifest scaffolding, component templates, and marketplace-ready checks",
   "author": {

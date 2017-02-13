@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "displayName": "Frontend",
   "version": "1.0.0",
   "description": "Cursor plugin for frontend engineering workflows: React, TypeScript, accessibility, and performance",
   "author": {

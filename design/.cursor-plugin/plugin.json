@@ -1,5 +1,6 @@
 {
   "name": "design",
+  "displayName": "Design",
   "version": "1.0.0",
   "description": "Cursor plugin for product design workflows: UX specs, design systems, handoff, and iteration",
   "author": {

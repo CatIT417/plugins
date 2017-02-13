@@ -1,5 +1,6 @@
 {
   "name": "web-browser",
+  "displayName": "Web Browser",
   "version": "1.0.0",
   "description": "Cursor plugin for browser debugging workflows: DevTools, network traces, and reproducible bug reports",
   "author": {
