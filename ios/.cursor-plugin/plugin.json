@@ -1,0 +1,26 @@
+{
+  "name": "ios",
+  "version": "1.0.0",
+  "description": "Cursor plugin for iOS development \u2014 Swift, SwiftUI, architecture, and testing",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "swift",
+    "swiftui",
+    "uikit",
+    "xcode"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "mobile",
+    "ios",
+    "swift"
+  ],
+  "skills": "./skills/"
+}

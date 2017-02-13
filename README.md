@@ -6,14 +6,6 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 
 | Plugin | Category | Description |
 |:-------|:---------|:------------|
-| [GitHub](github/) | Developer Tools | Actions, API, CLI, Pull Requests, and repository management |
-| [Docker](docker/) | Developer Tools | Dockerfiles, Compose, multi-stage builds, and containers |
-| [LaunchDarkly](launchdarkly/) | Developer Tools | Feature flags, experimentation, and progressive rollouts |
-| [Sentry](sentry/) | Observability | Error monitoring, performance tracking, and alerting |
-| [Firebase](firebase/) | Backend | Firestore, Cloud Functions, Authentication, and Hosting |
-| [MongoDB](mongodb/) | Backend | Schema design, queries, aggregation, indexes, and Mongoose |
-| [Twilio](twilio/) | SaaS | SMS, Voice, WhatsApp, Verify, and communications APIs |
-| [Slack](slack/) | SaaS | Bolt framework, Block Kit, Events API, and app development |
 | [Frontend](frontend/) | Developer Tools | React, TypeScript, accessibility, and performance workflows |
 | [Design](design/) | Utilities | UX specs, design systems, handoff, and iteration workflows |
 | [Data Science](data-science/) | Utilities | Analysis, modeling, experimentation, and reporting workflows |

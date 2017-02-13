@@ -3,9 +3,11 @@ name: loop-on-ci
 description: Watch CI runs and iterate on failures until all checks pass
 ---
 
-# Skill: Loop on CI
+# Loop on CI
 
-Watch CI for the current branch and keep fixing failures until green.
+## Trigger
+
+Need to watch branch CI and iterate on failures until green.
 
 ## Workflow
 

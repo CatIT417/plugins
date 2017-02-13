@@ -3,9 +3,11 @@ name: run-smoke-tests
 description: Run Playwright smoke tests, debug failures, and verify fixes
 ---
 
-# Skill: Run Smoke Tests
+# Run Smoke Tests
 
-Run smoke tests for high-signal end-to-end verification.
+## Trigger
+
+Need end-to-end smoke verification before or after changes.
 
 ## Workflow
 

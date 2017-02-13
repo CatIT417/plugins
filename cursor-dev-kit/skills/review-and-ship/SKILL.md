@@ -3,9 +3,11 @@ name: review-and-ship
 description: Run a structured review, close key issues, and ship changes via PR
 ---
 
-# Skill: Review and Ship
+# Review and Ship
 
-Use this workflow to review changes thoroughly and ship confidently.
+## Trigger
+
+Reviewing changes before shipping; need to close key issues and open/update PR.
 
 ## Workflow
 

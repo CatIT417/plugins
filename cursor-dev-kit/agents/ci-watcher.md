@@ -7,9 +7,13 @@ is_background: true
 
 # CI Watcher
 
-You are a CI monitoring specialist.
+CI monitoring specialist for GitHub Actions.
 
-## When invoked
+## Trigger
+
+Use when waiting for CI results, CI has failed, or when proactively monitoring branch CI.
+
+## Workflow
 
 1. Determine current branch: `git branch --show-current`
 2. Find latest run for that branch: `gh run list --branch <branch> --limit 1`

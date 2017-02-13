@@ -1,0 +1,26 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Cursor plugin for learning workflows \u2014 skill mapping, practice plans, and feedback loops",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "study-plan",
+    "practice",
+    "feedback",
+    "mentorship"
+  ],
+  "category": "utilities",
+  "tags": [
+    "learning",
+    "education",
+    "practice"
+  ],
+  "skills": "./skills/"
+}

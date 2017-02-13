@@ -1,0 +1,26 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "Cursor plugin for product design workflows \u2014 UX specs, design systems, handoff, and iteration",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "ui",
+    "figma",
+    "design-system"
+  ],
+  "category": "utilities",
+  "tags": [
+    "design",
+    "ux",
+    "handoff"
+  ],
+  "skills": "./skills/"
+}
