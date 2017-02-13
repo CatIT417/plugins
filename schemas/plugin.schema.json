@@ -57,6 +57,15 @@
       "items": { "type": "string" },
       "description": "Keywords for discovery and search."
     },
+    "category": {
+      "type": "string",
+      "description": "Plugin category for marketplace classification."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tags for filtering and discovery."
+    },
     "commands": {
       "$ref": "#/$defs/stringOrStringArray",
       "description": "Glob pattern(s) or path(s) to command files."
