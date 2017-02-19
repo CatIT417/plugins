@@ -9,7 +9,7 @@ This plugin requires MCP browser tools (`browser_navigate`, `browser_snapshot`, 
 ## Installation
 
 ```bash
-agent install web-browser
+/add-plugin web-browser
 ```
 
 ## Components

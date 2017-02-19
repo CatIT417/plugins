@@ -5,7 +5,7 @@ Technical documentation: READMEs, API docs, architecture notes, and changelogs.
 ## Installation
 
 ```bash
-agent install documentation
+/add-plugin documentation
 ```
 
 ## Components

@@ -9,7 +9,7 @@ Two hooks drive the loop. An `afterAgentResponse` hook watches each response for
 ## Installation
 
 ```
-agent install ralph-loop
+/add-plugin ralph-loop
 ```
 
 ## Quick start

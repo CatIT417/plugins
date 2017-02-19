@@ -5,7 +5,7 @@ Meta workflows for creating Cursor plugins that are marketplace-ready.
 ## Installation
 
 ```bash
-agent install create-plugin
+/add-plugin create-plugin
 ```
 
 ## Components

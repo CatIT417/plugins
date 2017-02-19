@@ -5,7 +5,7 @@ Android development: Kotlin, Jetpack Compose, architecture, and testing.
 ## Installation
 
 ```bash
-agent install android
+/add-plugin android
 ```
 
 ## Components

@@ -5,7 +5,7 @@ Frontend engineering: React, TypeScript, accessibility, and performance.
 ## Installation
 
 ```bash
-agent install frontend
+/add-plugin frontend
 ```
 
 ## Components

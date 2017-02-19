@@ -5,7 +5,7 @@ iOS development: Swift, SwiftUI, architecture, and testing.
 ## Installation
 
 ```bash
-agent install ios
+/add-plugin ios
 ```
 
 ## Components

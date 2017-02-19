@@ -5,7 +5,7 @@ Product design: UX specs, design systems, handoff, and iteration.
 ## Installation
 
 ```bash
-agent install design
+/add-plugin design
 ```
 
 ## Components

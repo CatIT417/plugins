@@ -5,7 +5,7 @@ Code review workflows: correctness, security, regressions, and actionable feedba
 ## Installation
 
 ```bash
-agent install code-review
+/add-plugin code-review
 ```
 
 ## Components

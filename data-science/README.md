@@ -5,7 +5,7 @@ Analyst-first data science: question framing, exploratory analysis, decision-rea
 ## Installation
 
 ```bash
-agent install data-science
+/add-plugin data-science
 ```
 
 ## Components

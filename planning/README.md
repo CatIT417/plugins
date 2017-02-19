@@ -5,7 +5,7 @@ Software planning: scope, milestones, risk management, and execution plans.
 ## Installation
 
 ```bash
-agent install planning
+/add-plugin planning
 ```
 
 ## Components

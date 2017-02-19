@@ -5,7 +5,7 @@ Learning workflows: skill mapping, practice plans, and feedback loops.
 ## Installation
 
 ```bash
-agent install learning
+/add-plugin learning
 ```
 
 ## Components
