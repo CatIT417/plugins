@@ -32,6 +32,21 @@
       "name": "ralph-loop",
       "source": "ralph-loop",
       "description": "Iterative self-referential AI loops using the Ralph Wiggum technique."
+    },
+    {
+      "name": "gws-gmail-triage",
+      "source": "gws-gmail-triage",
+      "description": "Daily Gmail triage workflows with follow-up scheduling in Calendar."
+    },
+    {
+      "name": "gws-drive-release-publisher",
+      "source": "gws-drive-release-publisher",
+      "description": "Publish Drive release artifacts with controlled sharing and Chat announcements."
+    },
+    {
+      "name": "gws-calendar-meeting-pilot",
+      "source": "gws-calendar-meeting-pilot",
+      "description": "Build meeting briefs from Calendar events with related Gmail and Drive context."
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gws-drive-release-publisher": {
+      "command": "gws",
+      "args": [
+        "mcp",
+        "-s",
+        "drive,chat",
+        "-w",
+        "-e"
+      ]
+    }
+  }
+}

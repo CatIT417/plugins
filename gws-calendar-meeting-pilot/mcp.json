@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gws-calendar-meeting-pilot": {
+      "command": "gws",
+      "args": [
+        "mcp",
+        "-s",
+        "calendar,drive,gmail",
+        "-w",
+        "-e"
+      ]
+    }
+  }
+}

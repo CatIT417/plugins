@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gws-gmail-triage": {
+      "command": "gws",
+      "args": [
+        "mcp",
+        "-s",
+        "gmail,calendar",
+        "-w",
+        "-e"
+      ]
+    }
+  }
+}
