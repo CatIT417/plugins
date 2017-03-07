@@ -1,11 +1,11 @@
-# GWS Drive Release Publisher
+# Google Drive
 
 Use-case specific plugin for publishing release assets from Google Drive and announcing delivery in Google Chat.
 
 ## Installation
 
 ```bash
-/add-plugin gws-drive-release-publisher
+/add-plugin google-drive
 ```
 
 ## What this plugin includes

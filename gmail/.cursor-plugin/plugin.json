@@ -1,8 +1,8 @@
 {
-  "name": "gws-calendar-meeting-pilot",
-  "displayName": "GWS Calendar Meeting Pilot",
+  "name": "gmail",
+  "displayName": "Gmail",
   "version": "1.0.0",
-  "description": "Prepare meeting briefs from Calendar events using Drive and Gmail context.",
+  "description": "Daily inbox triage workflows for Gmail with optional follow-up scheduling in Calendar.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
@@ -13,16 +13,16 @@
   "logo": "assets/avatar.png",
   "keywords": [
     "google-workspace",
-    "calendar",
     "gmail",
-    "drive",
-    "meetings"
+    "triage",
+    "calendar",
+    "operations"
   ],
   "category": "productivity",
   "tags": [
-    "calendar",
-    "meeting-prep",
-    "briefing"
+    "gmail",
+    "triage",
+    "email-ops"
   ],
   "skills": "./skills/",
   "agents": "./agents/",

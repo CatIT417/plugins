@@ -1,11 +1,11 @@
 {
   "mcpServers": {
-    "gws-drive-release-publisher": {
+    "gmail": {
       "command": "gws",
       "args": [
         "mcp",
         "-s",
-        "drive,chat",
+        "gmail,calendar",
         "-w",
         "-e"
       ]

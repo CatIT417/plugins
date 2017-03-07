@@ -1,8 +1,8 @@
 {
-  "name": "gws-gmail-triage",
-  "displayName": "GWS Gmail Triage",
+  "name": "google-drive",
+  "displayName": "Google Drive",
   "version": "1.0.0",
-  "description": "Daily inbox triage workflows for Gmail with optional follow-up scheduling in Calendar.",
+  "description": "Publish release artifacts from Drive with controlled sharing and Chat notifications.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
@@ -13,16 +13,16 @@
   "logo": "assets/avatar.png",
   "keywords": [
     "google-workspace",
-    "gmail",
-    "triage",
-    "calendar",
-    "operations"
+    "drive",
+    "chat",
+    "release",
+    "publishing"
   ],
   "category": "productivity",
   "tags": [
-    "gmail",
-    "triage",
-    "email-ops"
+    "drive",
+    "release-management",
+    "chat-ops"
   ],
   "skills": "./skills/",
   "agents": "./agents/",

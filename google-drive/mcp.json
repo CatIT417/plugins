@@ -1,11 +1,11 @@
 {
   "mcpServers": {
-    "gws-gmail-triage": {
+    "google-drive": {
       "command": "gws",
       "args": [
         "mcp",
         "-s",
-        "gmail,calendar",
+        "drive,chat",
         "-w",
         "-e"
       ]

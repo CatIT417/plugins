@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "gws-calendar-meeting-pilot": {
+    "google-calendar": {
       "command": "gws",
       "args": [
         "mcp",

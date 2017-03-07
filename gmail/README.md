@@ -1,11 +1,11 @@
-# GWS Gmail Triage
+# Gmail
 
 Use-case specific plugin for daily Gmail inbox triage with optional Calendar follow-up scheduling.
 
 ## Installation
 
 ```bash
-/add-plugin gws-gmail-triage
+/add-plugin gmail
 ```
 
 ## What this plugin includes

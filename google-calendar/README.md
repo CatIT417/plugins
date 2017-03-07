@@ -1,11 +1,11 @@
-# GWS Calendar Meeting Pilot
+# Google Calendar
 
 Use-case specific plugin for preparing meeting briefs from Calendar events, related Gmail threads, and Drive docs.
 
 ## Installation
 
 ```bash
-/add-plugin gws-calendar-meeting-pilot
+/add-plugin google-calendar
 ```
 
 ## What this plugin includes

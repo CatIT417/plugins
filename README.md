@@ -11,9 +11,9 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | [Cursor Team Kit](cursor-team-kit/) | Developer Tools | Internal-style workflows for CI, code review, shipping, and testing |
 | [Create Plugin](create-plugin/) | Developer Tools | Meta workflows for creating Cursor plugins with scaffolding and submission checks |
 | [Ralph Loop](ralph-loop/) | Developer Tools | Iterative self-referential AI loops using the Ralph Wiggum technique |
-| [GWS Gmail Triage](gws-gmail-triage/) | Productivity | Daily Gmail triage workflows with follow-up scheduling in Calendar |
-| [GWS Drive Release Publisher](gws-drive-release-publisher/) | Productivity | Publish Drive release artifacts with controlled sharing and Chat announcements |
-| [GWS Calendar Meeting Pilot](gws-calendar-meeting-pilot/) | Productivity | Build meeting briefs from Calendar events with related Gmail and Drive context |
+| [Gmail](gmail/) | Productivity | Daily Gmail triage workflows with follow-up scheduling in Calendar |
+| [Google Drive](google-drive/) | Productivity | Publish Drive release artifacts with controlled sharing and Chat announcements |
+| [Google Calendar](google-calendar/) | Productivity | Build meeting briefs from Calendar events with related Gmail and Drive context |
 
 ## Repository structure
 

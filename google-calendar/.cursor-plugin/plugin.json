@@ -1,8 +1,8 @@
 {
-  "name": "gws-drive-release-publisher",
-  "displayName": "GWS Drive Release Publisher",
+  "name": "google-calendar",
+  "displayName": "Google Calendar",
   "version": "1.0.0",
-  "description": "Publish release artifacts from Drive with controlled sharing and Chat notifications.",
+  "description": "Prepare meeting briefs from Calendar events using Drive and Gmail context.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
@@ -13,16 +13,16 @@
   "logo": "assets/avatar.png",
   "keywords": [
     "google-workspace",
+    "calendar",
+    "gmail",
     "drive",
-    "chat",
-    "release",
-    "publishing"
+    "meetings"
   ],
   "category": "productivity",
   "tags": [
-    "drive",
-    "release-management",
-    "chat-ops"
+    "calendar",
+    "meeting-prep",
+    "briefing"
   ],
   "skills": "./skills/",
   "agents": "./agents/",
