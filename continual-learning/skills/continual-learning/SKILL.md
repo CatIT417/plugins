@@ -1,72 +1,24 @@
 ---
 name: continual-learning
-description: Incrementally extract recurring user corrections and durable workspace facts from transcript changes, then update AGENTS.md with plain bullet points only. Use when the user asks to mine previous chats, maintain AGENTS.md memory, or build a self-learning preference loop.
+description: Orchestrate continual learning by delegating transcript mining and AGENTS.md updates to `agents-memory-updater`.
+disable-model-invocation: true
 ---
 
 # Continual Learning
 
-Keep `AGENTS.md` current using transcript deltas instead of full rescans.
+Keep `AGENTS.md` current by delegating the memory update flow to one subagent.
 
-## Inputs
+## Trigger
 
-- Transcript root: `~/.cursor/projects/<workspace-slug>/agent-transcripts/`
-- Existing memory file: `AGENTS.md`
-- Incremental index: `.cursor/hooks/state/continual-learning-index.json`
+Use when the user asks to mine prior chats, maintain `AGENTS.md`, or run the continual-learning loop.
 
 ## Workflow
 
-1. Read existing `AGENTS.md` first.
-2. Load incremental index if present.
-3. Discover transcript files and process only:
-   - new files not in index, or
-   - files whose mtime is newer than indexed mtime.
-4. Extract only high-signal, reusable information:
-   - recurring user corrections/preferences
-   - durable workspace facts
-5. Merge with existing bullets in `AGENTS.md`:
-   - update matching bullets in place
-   - add only net-new bullets
-   - deduplicate semantically similar bullets
-6. Write back the incremental index:
-   - store latest mtimes for processed files
-   - remove entries for files that no longer exist
+1. Call `agents-memory-updater`.
+2. Return the updater result.
 
-## AGENTS.md Output Contract
+## Guardrails
 
-- Keep only these sections:
-  - `## Learned User Preferences`
-  - `## Learned Workspace Facts`
-- Use plain bullet points only.
-- Do not write evidence/confidence tags.
-- Do not write process instructions, rationale, or metadata blocks.
-
-## Inclusion Bar
-
-Keep an item only if all are true:
-
-- actionable in future sessions
-- stable across sessions
-- repeated in multiple transcripts, or explicitly stated as a broad rule
-- non-sensitive
-
-## Exclusions
-
-Never store:
-
-- secrets, tokens, credentials, private personal data
-- one-off task instructions
-- transient details (branch names, commit hashes, temporary errors)
-
-## Incremental Index Format
-
-```json
-{
-  "version": 1,
-  "transcripts": {
-    "/abs/path/to/file.jsonl": {
-      "mtimeMs": 1730000000000,
-      "lastProcessedAt": "2026-02-18T12:00:00.000Z"
-    }
-  }
-}
-```
+- Keep the parent skill orchestration-only.
+- Do not mine transcripts or edit files in the parent flow.
+- Do not bypass the subagent.

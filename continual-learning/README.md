@@ -5,7 +5,8 @@ Automatically and incrementally keeps `AGENTS.md` up to date from transcript cha
 The plugin combines:
 
 - A `stop` hook that decides when to trigger learning.
-- A `continual-learning` skill that mines only high-signal transcript deltas.
+- A `continual-learning` skill that orchestrates the learning flow.
+- An `agents-memory-updater` subagent that mines new or changed transcripts and updates `AGENTS.md`.
 
 It is designed to avoid noisy rewrites by:
 
@@ -23,11 +24,13 @@ It is designed to avoid noisy rewrites by:
 
 On eligible `stop` events, the hook may emit a `followup_message` that asks the agent to run the `continual-learning` skill.
 
+The skill is marked `disable-model-invocation: true`, so it will not be auto-selected during normal model invocation. When it does run, it delegates the full memory update flow to `agents-memory-updater`.
+
 The hook keeps local runtime state in:
 
 - `.cursor/hooks/state/continual-learning.json` (cadence state)
 
-The skill uses an incremental transcript index at:
+The updater uses an incremental transcript index at:
 
 - `.cursor/hooks/state/continual-learning-index.json`
 
@@ -56,7 +59,7 @@ Trial mode defaults (enabled in this plugin hook config):
 
 ## Output format in AGENTS.md
 
-The skill writes only:
+The memory updater writes only:
 
 - `## Learned User Preferences`
 - `## Learned Workspace Facts`

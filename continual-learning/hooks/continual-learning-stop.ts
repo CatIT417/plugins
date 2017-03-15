@@ -15,7 +15,7 @@ const TRIAL_DEFAULT_MIN_MINUTES = 15;
 const TRIAL_DEFAULT_DURATION_MINUTES = 24 * 60;
 
 const FOLLOWUP_MESSAGE =
-  `Run the \`continual-learning\` skill now. First read existing \`AGENTS.md\` and update existing entries in place (do not only append). Use incremental transcript processing with index file \`${INCREMENTAL_INDEX_PATH}\`: only read transcripts not in the index or transcripts whose mtime is newer than indexed mtime (re-read changed transcripts). After processing, write back the updated index mtimes and remove entries for deleted transcripts. Update \`AGENTS.md\` only for high-signal, repeated user-correction patterns or durable workspace facts. Exclude one-off/transient details and secrets. Keep each learned section to at most 12 bullets. Write plain bullet points only, with no evidence/confidence tags or other metadata annotations. If no meaningful updates exist, respond exactly: No high-signal memory updates.`;
+  `Run the \`continual-learning\` skill now. Use the \`agents-memory-updater\` subagent for the full memory update flow. Use incremental transcript processing with index file \`${INCREMENTAL_INDEX_PATH}\`: only consider transcripts not in the index or transcripts whose mtime is newer than indexed mtime. Have the subagent refresh index mtimes, remove entries for deleted transcripts, and update \`AGENTS.md\` only for high-signal recurring user corrections and durable workspace facts. Exclude one-off/transient details and secrets. If no meaningful updates exist, respond exactly: No high-signal memory updates.`;
 
 interface StopHookInput {
   conversation_id: string;
