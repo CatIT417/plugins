@@ -4,14 +4,16 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 
 ## Plugins
 
-| Plugin | Category | Description |
-|:-------|:---------|:------------|
-| [Teaching](teaching/) | Utilities | Skill maps, practice plans, and feedback loops |
-| [Continual Learning](continual-learning/) | Developer Tools | Incremental transcript-driven AGENTS.md memory updates with high-signal bullet points |
-| [Cursor Team Kit](cursor-team-kit/) | Developer Tools | Internal-style workflows for CI, code review, shipping, and testing |
-| [Create Plugin](create-plugin/) | Developer Tools | Meta workflows for creating Cursor plugins with scaffolding and submission checks |
-| [Ralph Loop](ralph-loop/) | Developer Tools | Iterative self-referential AI loops using the Ralph Wiggum technique |
-| [Agent Compatibility](agent-compatibility/) | Developer Tools | Compatibility scans and agent-native workflow audits for repository setup, startup paths, and validation loops |
+| `name` | Plugin | Author | Category | `description` (from marketplace) |
+|:-------|:-------|:-------|:---------|:-------------------------------------|
+| `teaching` | [Teaching](teaching/) | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. |
+| `continual-learning` | [Continual Learning](continual-learning/) | Cursor | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. |
+| `cursor-team-kit` | [Cursor Team Kit](cursor-team-kit/) | Cursor | Developer Tools | Internal team workflows used by Cursor developers for CI, code review, and shipping. |
+| `create-plugin` | [Create Plugin](create-plugin/) | Cursor | Developer Tools | Scaffold and validate new Cursor plugins. |
+| `ralph-loop` | [Ralph Loop](ralph-loop/) | Cursor | Developer Tools | Iterative self-referential AI loops using the Ralph Wiggum technique. |
+| `agent-compatibility` | [Agent Compatibility](agent-compatibility/) | Cursor | Developer Tools | Compatibility scans and agent-native workflow audits for repository setup, startup paths, and validation loops. |
+
+Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure
 

@@ -1,17 +1,21 @@
 {
   "name": "agent-compatibility",
   "displayName": "Agent Compatibility",
-  "version": "0.1.0",
-  "description": "Compatibility scans and agent-native repo audits built around the agent-compatibility CLI.",
+  "version": "1.0.0",
+  "description": "Compatibility scans and agent-native repo audits built around the agent-compatibility CLI. Provides agents and skills that run the published scanner plus workflow-focused reviews for startup paths, validation loops, and documentation.",
   "author": {
-    "name": "Eric Zakariasson"
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
   },
-  "publisher": "Eric Zakariasson",
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
   "logo": "assets/avatar.png",
-  "license": "ISC",
   "keywords": [
+    "agent-compatibility",
     "agents",
     "compatibility",
+    "cursor-plugin",
     "repo-audit",
     "startup",
     "validation"
