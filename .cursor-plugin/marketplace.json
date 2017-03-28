@@ -37,6 +37,11 @@
       "name": "agent-compatibility",
       "source": "agent-compatibility",
       "description": "CLI-backed repo compatibility scans plus Cursor agents that audit startup, validation, and docs against reality."
+    },
+    {
+      "name": "cli-for-agent",
+      "source": "cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run."
     }
   ]
 }
