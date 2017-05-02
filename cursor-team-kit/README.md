@@ -18,8 +18,8 @@ Internal-style workflows for CI, code review, shipping, and test reliability. Th
 | `review-and-ship` | Run a structured review, commit changes, and open a PR |
 | `pr-review-canvas` | Generate an interactive HTML PR walkthrough with annotated, categorized diffs |
 | `verify-this` | Prove or disprove claims with baseline/treatment artifacts and a clear verdict |
-| `cli-automation-harness` | Build or adapt a local harness to drive and profile interactive CLIs or TUIs |
-| `ui-automation-harness` | Build or adapt a local browser/CDP harness for web or Electron UIs |
+| `control-cli` | Build or adapt a local harness to drive and profile interactive CLIs or TUIs |
+| `control-ui` | Build or adapt a local browser/CDP harness for web or Electron UIs |
 | `make-pr-easy-to-review` | Clean noisy PR history, improve descriptions, and add reviewer guidance |
 | `run-smoke-tests` | Run Playwright smoke tests and triage failures |
 | `fix-ci` | Find failing CI jobs, inspect logs, and apply focused fixes |

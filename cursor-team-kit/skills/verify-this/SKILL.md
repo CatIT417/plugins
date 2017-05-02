@@ -28,8 +28,8 @@ Do not use this for vague claims like "the code is cleaner". Ask for a measurabl
 ## Local Surfaces
 
 - Code behavior: focused unit/integration tests or a minimal repro script.
-- CLI/TUI behavior: `cli-automation-harness`, terminal transcript, or demo recording.
-- UI behavior: `ui-automation-harness`, screenshots, accessibility snapshots, or browser traces.
+- CLI/TUI behavior: `control-cli`, terminal transcript, or demo recording.
+- UI behavior: `control-ui`, screenshots, accessibility snapshots, or browser traces.
 - API behavior: local HTTP/RPC request and response diff.
 - Performance: same-machine baseline/treatment timings or CPU profiles.
 - Memory: heap snapshots before and after the suspected operation.
