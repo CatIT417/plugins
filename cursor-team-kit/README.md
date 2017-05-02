@@ -1,6 +1,6 @@
 # Cursor Team Kit plugin
 
-Internal-style workflows for CI, code review, shipping, and test reliability.
+Internal-style workflows for CI, code review, shipping, and test reliability. The kit is designed to be plug and play without requiring third-party service integrations.
 
 ## Installation
 
@@ -17,6 +17,11 @@ Internal-style workflows for CI, code review, shipping, and test reliability.
 | `loop-on-ci` | Watch CI runs and iterate on failures until checks pass |
 | `review-and-ship` | Run a structured review, commit changes, and open a PR |
 | `pr-review-canvas` | Generate an interactive HTML PR walkthrough with annotated, categorized diffs |
+| `maximum-throughput` | Split independent engineering work into concurrent lanes with clean handoffs |
+| `verify-this` | Prove or disprove claims with baseline/treatment artifacts and a clear verdict |
+| `cli-automation-harness` | Build or adapt a local harness to drive and profile interactive CLIs or TUIs |
+| `ui-automation-harness` | Build or adapt a local browser/CDP harness for web or Electron UIs |
+| `make-pr-easy-to-review` | Clean noisy PR history, improve descriptions, and add reviewer guidance |
 | `run-smoke-tests` | Run Playwright smoke tests and triage failures |
 | `fix-ci` | Find failing CI jobs, inspect logs, and apply focused fixes |
 | `new-branch-and-pr` | Create a fresh branch, complete work, and open a pull request |
@@ -26,6 +31,7 @@ Internal-style workflows for CI, code review, shipping, and test reliability.
 | `weekly-review` | Generate a weekly recap of shipped work with bugfix/tech-debt/net-new highlights |
 | `fix-merge-conflicts` | Resolve merge conflicts, validate build/tests, and summarize decisions |
 | `deslop` | Remove AI-generated code slop and clean up code style |
+| `workflow-from-chats` | Extract durable working preferences from chats into skills, rules, or docs |
 
 ### Agents
 

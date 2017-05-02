@@ -21,7 +21,7 @@
     {
       "name": "cursor-team-kit",
       "source": "cursor-team-kit",
-      "description": "Internal team workflows used by Cursor developers for CI, code review, and shipping."
+      "description": "Internal team workflows used by Cursor developers for CI, code review, shipping, local automation, and verification."
     },
     {
       "name": "create-plugin",

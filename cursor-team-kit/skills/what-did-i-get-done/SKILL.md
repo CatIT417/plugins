@@ -26,6 +26,6 @@ Need a short, high-signal summary of work completed in a specific time range (fo
 
 ## Output
 
-- One short summary suitable for Slack
+- One short summary suitable for a status update
 - Real date range
 - Optional 2-5 bullets for major changes only
