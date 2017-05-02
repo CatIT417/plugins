@@ -2,7 +2,7 @@
   "name": "cursor-team-kit",
   "displayName": "Cursor Team Kit",
   "version": "1.1.0",
-  "description": "Internal workflows used by Cursor developers for CI, code review, shipping, local CLI/UI automation harnesses, verify-this, maximum-throughput, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations.",
+  "description": "Internal workflows used by Cursor developers for CI, code review, shipping, local CLI/UI automation harnesses, verify-this, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"

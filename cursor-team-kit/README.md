@@ -17,7 +17,6 @@ Internal-style workflows for CI, code review, shipping, and test reliability. Th
 | `loop-on-ci` | Watch CI runs and iterate on failures until checks pass |
 | `review-and-ship` | Run a structured review, commit changes, and open a PR |
 | `pr-review-canvas` | Generate an interactive HTML PR walkthrough with annotated, categorized diffs |
-| `maximum-throughput` | Split independent engineering work into concurrent lanes with clean handoffs |
 | `verify-this` | Prove or disprove claims with baseline/treatment artifacts and a clear verdict |
 | `cli-automation-harness` | Build or adapt a local harness to drive and profile interactive CLIs or TUIs |
 | `ui-automation-harness` | Build or adapt a local browser/CDP harness for web or Electron UIs |
