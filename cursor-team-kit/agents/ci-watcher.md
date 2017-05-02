@@ -1,13 +1,13 @@
 ---
 name: ci-watcher
-description: Watch GitHub CI for the current branch and report pass/fail with relevant failure logs. Use when waiting for CI results or CI has failed. Use proactively to monitor branch CI.
+description: Watch PR CI for the current branch and report pass/fail with relevant failure links. Use when waiting for CI results or CI has failed. Use proactively to monitor branch CI.
 model: fast
 is_background: true
 ---
 
 # CI watcher
 
-CI monitoring specialist for GitHub Actions.
+CI monitoring specialist for PR-attached checks.
 
 ## Trigger
 
@@ -16,12 +16,13 @@ Use when waiting for CI results, CI has failed, or when proactively monitoring b
 ## Workflow
 
 1. Determine current branch: `git branch --show-current`
-2. Find latest run for that branch: `gh run list --branch <branch> --limit 1`
-3. Watch to completion: `gh run watch <run-id> --exit-status`
-4. If failed, fetch failed logs: `gh run view <run-id> --log-failed`
+2. Resolve the PR: `gh pr view --json number,url,headRefName`
+3. Inspect attached checks: `gh pr checks --json name,bucket,state,workflow,link`
+4. If checks are pending, watch: `gh pr checks --watch --fail-fast`
+5. If a GitHub Actions check failed, fetch logs with `gh run view <run-id> --log-failed`; otherwise, return the check link and concise next step.
 
 ## Output
 
 - CI status (passed/failed)
-- Workflow/run metadata
-- If failed: concise failure excerpt and likely next step
+- PR and check metadata
+- If failed: concise failure excerpt or external check link and likely next step
