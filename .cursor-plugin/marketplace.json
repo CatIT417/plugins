@@ -57,6 +57,11 @@
       "name": "cursor-sdk",
       "source": "cursor-sdk",
       "description": "Build apps, scripts, CI pipelines, and automations on top of the Cursor TypeScript SDK (@cursor/sdk) — runtime selection, auth, streaming, MCP, error handling, and ready-to-extend integration patterns."
+    },
+    {
+      "name": "orchestrate",
+      "source": "orchestrate",
+      "description": "Fan large tasks out across parallel Cursor cloud agents with planners, workers, verifiers, and structured handoffs."
     }
   ]
 }
