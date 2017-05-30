@@ -10,6 +10,8 @@ Use this skill for an unusually strict review focused on implementation quality,
 
 Above all, this skill should push the reviewer to be **ambitious** about code structure. Do not merely identify local cleanup opportunities. Actively search for "code judo" moves: restructurings that preserve behavior while making the implementation dramatically simpler, smaller, more direct, and more elegant.
 
+This skill is based on the built-in **Improve code quality** quick action prompt, extends it with explicit code-quality constraints requested by Sualeh, and incorporates high-signal code-quality preferences distilled from the `lukas-pr-review` skill.
+
 ## Core Prompt
 
 Start from this baseline:
